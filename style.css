@@ -1,0 +1,165 @@
+/* Reset & Font Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Navigasi / Navbar Modern */
+.navbar {
+    background-color: #0f172a; /* Warna gelap elegan */
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.navbar-brand span {
+    color: #38bdf8; /* Aksen warna biru muda */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar-menu a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.navbar-menu a:hover {
+    color: #fff;
+}
+
+/* Container Konten Utama */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding-bottom: 80px;
+}
+
+/* Layout Profile Halaman Home */
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.avatar-box {
+    flex: 1;
+    text-align: center;
+}
+
+.avatar-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+    flex: 2;
+}
+
+.info-box h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #0ea5e9;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-left: 4px solid #0ea5e9;
+    padding-left: 10px;
+}
+
+.bio-text {
+    color: #475569;
+    font-size: 16px;
+}
+
+/* Grid Stack Keahlian (Badges) */
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.badge {
+    background-color: #f1f5f9;
+    color: #334155;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+}
+
+.badge:hover {
+    background-color: #0ea5e9;
+    color: #fff;
+    border-color: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+/* Footer Minimalis */
+footer {
+    background-color: #0f172a;
+    color: #64748b;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid #1e293b;
+    width: 100%;
+}
